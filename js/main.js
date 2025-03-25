@@ -285,7 +285,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
         subject: document.getElementById("subject").value
     };
 
-    const response = await fetch("https://portfolio-mantha-sutariyas-projects.vercel.app/", {
+    const response = await fetch("https://nodejs-serverless-function-express-eosin-kappa.vercel.app", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
