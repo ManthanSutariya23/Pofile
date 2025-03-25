@@ -6,6 +6,7 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use(express.static(__dirname));
 
 app.post("/send-email", async (req, res) => {
     const { name, email, message, subject } = req.body;
