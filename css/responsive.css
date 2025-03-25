@@ -1,0 +1,200 @@
+/*--------------------------------------------------------------
+# Responsive Styles
+--------------------------------------------------------------*/
+
+/* Large Devices (Desktops, 1200px and down) */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+    
+    .section-title h2 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Medium Devices (Tablets, 992px and down) */
+@media (max-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+    
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-content h1 .job-title {
+        font-size: 1.8rem;
+    }
+    
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .timeline::before {
+        left: 30px;
+    }
+    
+    .timeline-item {
+        justify-content: flex-start;
+        padding-left: 70px;
+    }
+    
+    .timeline-item:nth-child(even) {
+        justify-content: flex-start;
+    }
+    
+    .timeline-marker {
+        left: 30px;
+    }
+    
+    .timeline-content {
+        width: 100%;
+    }
+    
+    .timeline-item:nth-child(odd) .timeline-content::before,
+    .timeline-item:nth-child(even) .timeline-content::before {
+        left: -10px;
+        right: auto;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent var(--bg-light) transparent transparent;
+    }
+}
+
+/* Small Devices (Landscape Phones, 768px and down) */
+@media (max-width: 768px) {
+    .section-padding {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: var(--bg-color);
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: var(--spacing-xl);
+        transition: var(--transition);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-menu li {
+        margin: 0 0 var(--spacing-md) 0;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+    
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content h1 .greeting {
+        font-size: 1.2rem;
+    }
+    
+    .hero-content h1 .job-title {
+        font-size: 1.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .soft-skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones, 576px and down) */
+@media (max-width: 576px) {
+    html {
+        font-size: 14px;
+    }
+    
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+    }
+    
+    .hero-buttons .btn {
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .about-content {
+        gap: var(--spacing-lg);
+    }
+    
+    .education-item {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+    
+    .education-icon {
+        align-items: center;
+    }
+    
+    .trait-item {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+    
+    .trait-icon {
+        align-items: center;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: var(--spacing-lg);
+        text-align: center;
+    }
+}
+
+/* Height-based media queries */
+@media (max-height: 700px) {
+    .hero-section {
+        height: auto;
+        min-height: 100vh;
+        padding: 100px 0 50px;
+    }
+    
+    .scroll-down {
+        display: none;
+    }
+}

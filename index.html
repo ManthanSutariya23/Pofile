@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manthan Sutariya - Front End Web Developer Portfolio">
+    <meta name="keywords" content="front end developer, web developer, portfolio, HTML, CSS, JavaScript, React">
+    <meta name="author" content="Manthan Sutariya">
+
+    <title>Manthan Sutariya | Front End Web Developer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E👨‍💻%3C/text%3E%3C/svg%3E">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">MS</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home/Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-aos="fade-up" data-aos-delay="100">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Manthan Sutariya</span>
+                    <span class="job-title">Front End Web Developer</span>
+                </h1>
+                <p>Building responsive web experiences with attention to detail
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="assets/Manthan CV.docx" class="btn btn-secondary" target="_blank">Download CV</a>
+                </div>
+                <div class="social-links-center">
+                    <a href="mailto:manthan.sutariya.uk@gmail.com" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manthan-sutariya" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                    <span class="arrow">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <p class="bio">
+                        I'm a passionate Front-end Web Developer with substantial experience enhancing application
+                        performance and security.
+                        My key achievements include contributing to over 10 successful web applications and enhancing
+                        system efficiency by 30%.
+                    </p>
+                    <p>
+                        I have a proven track record in delivering high-quality, scalable solutions using technologies
+                        like
+                        HTML, CSS, JavaScript, React.js, and more. I'm eager to bring my technical expertise and
+                        creative problem-solving
+                        abilities to challenging new projects.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <span class="label">Name:</span>
+                            <span class="value">Manthan Sutariya</span>
+                        </div>
+                        <div class="detail">
+                            <span class="label">Email:</span>
+                            <span class="value">manthan.sutariya.uk@gmail.com</span>
+                        </div>
+                        <div class="detail">
+                            <span class="label">Phone:</span>
+                            <span class="value">+447810778883</span>
+                        </div>
+                        <div class="detail">
+                            <span class="label">Location:</span>
+                            <span class="value">United Kingdom</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left" data-aos-delay="400">
+                    <div class="stat-item">
+                        <div class="stat-count">10+</div>
+                        <div class="stat-name">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-count">3+</div>
+                        <div class="stat-name">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-count">30%</div>
+                        <div class="stat-name">Performance Boost</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-count">25%</div>
+                        <div class="stat-name">Engagement Increase</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-categories">
+                    <!-- Programming Languages -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Programming Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                                <div class="skill-name">HTML</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                                <div class="skill-name">CSS</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                                <div class="skill-name">JavaScript (ES6+)</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                                <div class="skill-name">C/C++</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-hashtag"></i></div>
+                                <div class="skill-name">C#</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
+                                <div class="skill-name">Java</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Frameworks & Libraries</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+                                <div class="skill-name">React.js</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-node-js"></i></div>
+                                <div class="skill-name">Node.js</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-bootstrap"></i></div>
+                                <div class="skill-name">Bootstrap</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-wind"></i></div>
+                                <div class="skill-name">Tailwind</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-windows"></i></div>
+                                <div class="skill-name">.NET</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-dollar-sign"></i></div>
+                                <div class="skill-name">jQuery</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database & Tools -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Database & Tools</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                                <div class="skill-name">MySQL</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-leaf"></i></div>
+                                <div class="skill-name">MongoDB</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-code-branch"></i></div>
+                                <div class="skill-name">Git</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                                <div class="skill-name">Figma</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-brands fa-docker"></i></div>
+                                <div class="skill-name">Docker</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                                <div class="skill-name">Postman</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                        <h3>Professional Skills</h3>
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                <span>Attention to Detail</span>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-hands-asl-interpreting"></i>
+                                <span>Conflict Mediation</span>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-people-group"></i>
+                                <span>Collaboration</span>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Critical Thinking</span>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-person-rays"></i>
+                                <span>Flexible Approach</span>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span>Proactive Decision-Maker</span>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <span>Ownership and Integrity</span>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <span>Agile Methodology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>My Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="">
+                <!-- Hifas Da Terra Experience -->
+                <div class="" data-aos="fade-up" data-aos-delay="100">
+                    <!-- <div class="timeline-marker"></div> -->
+                    <div class="skill-item">
+                        <div class="timeline-date">July 2024 - Present</div>
+                        <h3 class="timeline-title">Junior Front End Developer</h3>
+                        <h4 class="timeline-company">Hifas Da Terra, London, United Kingdom</h4>
+                        <ul class="timeline-description">
+                            <li>Worked closely in a team of 4-5 developers, collaborating on features and debugging
+                                code.</li>
+                            <li>Developed and launched 15 product landing pages, such as Home Page, Product List Page,
+                                Product Details Page, resulting in a 25% increase in user engagement and conversion
+                                rates.</li>
+                            <li>Enhanced data security by 30% through the design of secure authentication features,
+                                including login and registration.</li>
+                            <li>Added search bar functionality to enhance user navigation and reduce search time by 40%.
+                            </li>
+                            <li>Increased global reach by 20% via the implementation of multi-language selection for a
+                                diverse audience.</li>
+                            <li>Increased design consistency by 30% while improving project performance through
+                                effective use of Tailwind CSS.</li>
+                            <li>Maintained an average of 15 collaborative sessions per month with UI/UX designers to
+                                implement modern interfaces.</li>
+                            <li>Achieved a 20% boost in user engagement by revamping the site's interactive elements
+                                using React.</li>
+                            <li>Streamlined development process by reducing build times by 25% using Babel, Webpack, and
+                                NPM for development tools.</li>
+                            <li>Enhanced application functionality, processing 1000 requests per hour, by collaborating
+                                with senior developers to integrate RESTful APIs.</li>
+                            <li>Reduced project delivery times by 20% by implementing efficient Git branching
+                                strategies.</li>
+                            <li>Participated in daily stand-up meetings to track progress in an agile development
+                                environment, contributing to effective team communication and project timelines score to
+                                95%.</li>
+                        </ul>
+                    </div>
+                    <br />
+
+                    <!-- Loopbots Technology Experience -->
+                    <div class="skill-item">
+                        <div class="timeline-date">March 2021 - January 2023</div>
+                        <h3 class="timeline-title">Assistant Front End Developer</h3>
+                        <h4 class="timeline-company">Loopbots Technology, India</h4>
+                        <ul class="timeline-description">
+                            <li>Worked on 10+ projects simultaneously, each with a team of 3-5 developers.</li>
+                            <li>Resulted in 20% faster load times by developing responsive user interfaces with
+                                HTML,
+                                CSS, and JavaScript.</li>
+                            <li>Facilitated communication between front-end and back-end services, supporting API
+                                integrations across critical applications.</li>
+                            <li>Contributed to 15 developer meetings, addressing tasks, updates, and technical
+                                challenges.</li>
+                            <li>Improved website stability by 25% through troubleshooting and debugging issues.</li>
+                            <li>Strengthened user data protection by implementing security features, enhancing
+                                mobile
+                                security for 5K+ users.</li>
+                            <li>Achieved a 50% reduction in development time for future projects by providing
+                                support in
+                                the development of reusable components.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Education</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="education-content">
+                <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>MSc Computing – First Class</h3>
+                        <h4>De Montfort University, Leicester UK</h4>
+                        <div class="education-date">February 2023 - June 2024</div>
+                        <div class="education-description">
+                            <p>Advanced studies in computing with focus on modern web development technologies and
+                                practices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="education-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Bachelor of Computer Application</h3>
+                        <h4>Veer Narmad South Gujarat University, Gujarat - India</h4>
+                        <div class="education-date">June 2019 - April 2022</div>
+                        <div class="education-description">
+                            <p>Comprehensive education in computer applications with focus on programming and web
+                                development fundamentals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+                <button class="filter-btn" data-filter="app">Applications</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-store"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p class="project-description">A responsive e-commerce website with product filtering, search
+                            functionality, and secure checkout.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Live</a>
+                            <a href="#" class="btn-small">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item" data-category="ui" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Creative Agency Website</h3>
+                        <p class="project-description">Modern website design for a creative agency with smooth
+                            animations and interactive elements.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>GSAP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Live</a>
+                            <a href="#" class="btn-small">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item" data-category="app" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">A web application for managing tasks with drag-and-drop
+                            functionality and user authentication.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Live</a>
+                            <a href="#" class="btn-small">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-newspaper"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">News Portal</h3>
+                        <p class="project-description">A responsive news website with categorized articles, search
+                            functionality, and user comments.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>API Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Live</a>
+                            <a href="#" class="btn-small">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-item" data-category="ui" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Restaurant Website</h3>
+                        <p class="project-description">Elegant website for a restaurant with menu display, reservation
+                            system, and location map.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Live</a>
+                            <a href="#" class="btn-small">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-item" data-category="app" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-description">Interactive dashboard with data visualization, filtering options,
+                            and real-time updates.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Live</a>
+                            <a href="#" class="btn-small">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Traits Section -->
+    <section id="personal-traits" class="personal-traits-section section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Personal Traits</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="traits-content">
+                <div class="traits-list" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trait-item">
+                        <div class="trait-icon">
+                            <i class="fa-solid fa-hands-helping"></i>
+                        </div>
+                        <div class="trait-text">
+                            <p>Participate in local charity events and provide voluntary teaching services to
+                                undergraduates.</p>
+                        </div>
+                    </div>
+                    <div class="trait-item">
+                        <div class="trait-icon">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <div class="trait-text">
+                            <p>Engaged in volunteer work for live streaming on YouTube, utilizing audio and video mixers
+                                to ensure high-quality broadcasts.</p>
+                        </div>
+                    </div>
+                    <div class="trait-item">
+                        <div class="trait-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="trait-text">
+                            <p>Enjoy interacting with like-minded individuals who discuss innovation and growth.</p>
+                        </div>
+                    </div>
+                    <div class="trait-item">
+                        <div class="trait-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <div class="trait-text">
+                            <p>Prefer to contribute constructively rather than remaining an observer.</p>
+                        </div>
+                    </div>
+                    <div class="trait-item">
+                        <div class="trait-icon">
+                            <i class="fa-solid fa-smile"></i>
+                        </div>
+                        <div class="trait-text">
+                            <p>Ever positive attitude.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your
+                        vision.</p>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>manthan.sutariya.uk@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>+447810778883</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>United Kingdom</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:manthan.sutariya.uk@gmail.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/manthan-sutariya" target="_blank" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Send Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formStatus" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Manthan Sutariya</h2>
+                    <p>Front End Web Developer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:manthan.sutariya.uk@gmail.com" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manthan-sutariya" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Manthan Sutariya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
